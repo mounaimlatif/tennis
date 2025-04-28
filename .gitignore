@@ -1,0 +1,47 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+.metadata/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+
+# VS Code (au cas où tu changes d'IDE)
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+spring-boot-devtools.properties
+application-*.yml
+application-*.properties
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+build/
+
+# Coverage reports
+/coverage/
+jacoco-report.html
